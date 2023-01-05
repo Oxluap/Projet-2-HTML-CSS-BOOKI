@@ -26,5 +26,7 @@ nav a{
 }
 
 nav a:hover {
+    border-top: solid;
     color: #0065fc;
+    border-top-color: #0065fc;
   }
