@@ -3,12 +3,13 @@ font-family: 'Raleway', sans-serif;
 margin: 10px;
 }
 
+
 /*Header*/
 header{
     padding: 30px 30px 30px 30px;
 }
 
-nav{
+header nav{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -16,17 +17,31 @@ nav{
 
 }
 
-nav img{
+header nav img{
     width: 70px;
 }
 
-nav a{
+header nav a{
     margin-left: 40px;
     text-decoration: none;
 }
 
-nav a:hover {
+header nav a:hover {
     border-top: solid;
     color: #0065fc;
     border-top-color: #0065fc;
+  }
+
+
+  /*Main*/
+
+  main{
+    margin: 0px 35px 0px 35px;
+  }
+
+  main nav{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30%;
+    margin-top: 20px;
   }
