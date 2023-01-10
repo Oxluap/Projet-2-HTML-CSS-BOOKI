@@ -41,7 +41,8 @@ header nav a:hover {
 
   main nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: baseline;
     margin-right: 30%;
     margin-top: 20px;
   }
