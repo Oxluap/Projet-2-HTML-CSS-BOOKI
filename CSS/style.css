@@ -46,3 +46,71 @@ header nav a:hover {
     margin-right: 30%;
     margin-top: 20px;
   }
+
+
+
+
+/*Cartes herbegements*/
+.hebergement-marseille{
+  background-color: #f2f2f2;
+  border-radius: 15px 15px 15px 15px;
+  width: 60%;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.cartes-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cartes-container a{
+  text-decoration: none;
+  color: black;
+}
+
+.cartes{
+  border-radius:20px 20px 20px 20px ;
+  background-color: white;
+  width: 210px;
+  height: 190px;
+}
+
+.cartes img {
+  width: 200px;
+  height: 110px;
+  border-radius:20px 20px 0px 0px ;
+  padding: 5px 5px 0px 5px;
+}
+
+.cartes h3{
+  font-size: 0.8em;
+  margin-left: 15px;
+  margin-bottom: 0px;
+  margin-top: 3px
+}
+
+.cartes p{
+  font-size: 0.7em;
+  margin-top: 3px;
+  margin-left: 15px;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+
+.stars{
+  font-size: small;
+  margin-left: 15px;
+  margin-top: 3px;
+}
+
+.fa-star{
+  color: #0065fc;
+}
+
+.fa-grey{
+  color: #f2f2f2;
+}
+
+
+
