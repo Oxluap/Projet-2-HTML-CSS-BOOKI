@@ -34,7 +34,13 @@ header nav a:hover {
   border-top-color: #0065fc;
 }
 
-/*sous header*/
+/*Main*/
+
+main{
+  margin: 0px 35px 0px 35px;
+}
+
+/*Grand titre*/
 .titre h1{
   font-size: 1.3em;
   margin-top: 2%;
@@ -62,7 +68,10 @@ form{
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 30%;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .filtres{
@@ -109,23 +118,6 @@ form{
 .information p{
   font-size: 0.9em;
 }
-
-
-/*Main*/
-
-  main{
-    margin: 0px 35px 0px 35px;
-  }
-
-  main nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-right: 30%;
-    margin-top: 20px;
-  }
-
-
 
 
 /*Cartes herbegements*/
@@ -291,6 +283,39 @@ form{
   justify-content: space-between;
 }
 
+/*Activités*/
+
+.activite{
+  margin-top: 3%;
+}
+.activite h2{
+  font-size: 1.1em
+}
+
+.card-a-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.card-a{
+  background-color: white;
+  box-shadow: 5px 5px 5px #dcdcdc;
+  border-radius: 15px;
+  width: 300px;
+}
+
+.card-a img{
+  width: 300px;
+  height: 350px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.card-a h3{
+  font-size: 0.8em;
+  margin-left: 15px;
+}
 
 
 
