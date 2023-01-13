@@ -1,39 +1,117 @@
 body{
 font-family: 'Raleway', sans-serif;
-margin: 10px;
+margin: 5px;
 }
 
 
 /*Header*/
+
 header{
-    padding: 30px 30px 30px 30px;
-}
-
-header nav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-
+    padding: 30px 30px 30px 40px;
 }
 
 header nav img{
-    width: 70px;
+  width: 60px;
+}
+
+header nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header nav a{
-    margin-left: 40px;
-    text-decoration: none;
+  margin-left: 40px;
+  text-decoration: none;
+  color: black;
 }
 
 header nav a:hover {
-    border-top: solid;
-    color: #0065fc;
-    border-top-color: #0065fc;
-  }
+  border-top: solid;
+  padding-top: 33px;
+  color: #0065fc;
+  border-top-color: #0065fc;
+}
+
+/*sous header*/
+.titre h1{
+  font-size: 1.3em;
+  margin-top: 2%;
+  margin-bottom: 0px;
+}
+
+.titre p{
+  margin-top: 1%;
+  
+}
+
+/*Form*/
+
+form{
+  border: 1px solid #deebff;
+  border-radius: 20px;
+  width: 20%;
+  padding: 1%;
+}
 
 
-  /*Main*/
+/*Filtres*/
+
+.filtre-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.filtres{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  border: 2px solid #dae0e8;
+  border-radius: 50px;
+  padding: 0% 2% 0% 2%;
+}
+
+.filtres:hover{
+  background-color: #deebff;
+}
+
+.filtres i{
+  margin-right: 5px;
+  padding-top: 5px;
+  color: #0065fc;
+}
+
+.filtres p{
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+/*info*/
+
+.information{
+  display: flex;
+  align-items: baseline;
+}
+
+.information i{
+  margin-right: 5px;
+  color: #0065fc;
+  border: 1px solid #deebff;
+  border-radius: 100%;
+  width: 5px;
+  padding: 5px;
+  font-size: 0.7em;
+}
+
+.information p{
+  font-size: 0.9em;
+}
+
+
+/*Main*/
 
   main{
     margin: 0px 35px 0px 35px;
@@ -63,8 +141,12 @@ header nav a:hover {
   display: flex;
   flex-wrap: wrap;
 }
+.hebergement-marseille h2{
+  font-size: 1.1em;
+  margin-left: 20px;
+}
 
-.cartes-container a{
+.hebergement-marseille a{
   text-decoration: none;
   color: black;
 }
@@ -72,12 +154,16 @@ header nav a:hover {
 .cartes{
   border-radius:20px 20px 20px 20px ;
   background-color: white;
-  width: 210px;
-  height: 190px;
+  width: 220px;
+  height: 180px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+  box-shadow: 5px 5px 5px #dcdcdc;
 }
 
 .cartes img {
-  width: 200px;
+  width: 210px;
   height: 110px;
   border-radius:20px 20px 0px 0px ;
   padding: 5px 5px 0px 5px;
@@ -95,22 +181,116 @@ header nav a:hover {
   margin-top: 3px;
   margin-left: 15px;
   margin-bottom: 0px;
-  text-decoration: none;
 }
 
-.stars{
+.cartes .stars{
   font-size: small;
   margin-left: 15px;
   margin-top: 3px;
 }
 
-.fa-star{
+.cartes .fa-star{
   color: #0065fc;
 }
 
-.fa-grey{
+.cartes .fa-grey{
   color: #f2f2f2;
 }
+
+.hebergement-marseille span{
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-left: 20px;
+  margin-top: 70px;
+}
+
+/*Les plus populaires*/
+
+
+.Populaire{
+  background-color: #f2f2f2;
+  border-radius: 15px 15px 15px 15px;
+  width: 30%;
+  height: 530px;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.Populaire a{
+  text-decoration: none;
+  color: black;
+}
+
+.titre-logo{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+
+}
+
+.titre-logo h2{
+  font-size: 1.1em;
+  margin-left: 20px;
+}
+
+.titre-logo i{
+  font-size: 1.1em;
+  color: #0065fc;
+  margin-right: 5%;
+}
+
+.card{
+  border-radius:20px 20px 20px 20px ;
+  background-color: white;
+  width: 340px;
+  height: 140px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+  margin-left: 7%;
+  margin-top: 2%;
+  box-shadow: 5px 5px 5px #dcdcdc;
+}
+
+.card img{
+  width: 150px;
+  height: 130px;
+  border-radius:20px 0px 0px 20px;
+  padding: 5px;
+}
+
+.card-contenu h3{
+  font-size: 0.8em;
+  margin-bottom: 0px;
+  margin-left: 8%;
+}
+
+.card-contenu p{
+  font-size: 0.7em;
+  margin-left: 8%;
+  margin-bottom: 0%;
+}
+
+.card-contenu .stars{
+  font-size: small;
+  margin-left: 8%;
+  margin-top: 45px;
+}
+.card-contenu .fa-star{
+  color: #0065fc;
+}
+
+.card-contenu .fa-grey{
+  color: #f2f2f2;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 
 
 
