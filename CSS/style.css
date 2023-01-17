@@ -55,10 +55,37 @@ main{
 /*Form*/
 
 form{
-  border: 1px solid #deebff;
-  border-radius: 20px;
   width: 20%;
-  padding: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: row;
+}
+
+form i{
+  padding: 16px;
+  background-color: #f2f2f2;
+  border-top-left-radius: 30%;
+  border-bottom-left-radius: 30%;
+}
+
+form input{
+  font-size: 15px;
+  padding: 13px;
+  border: 2px solid #f2f2f2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+form button{
+  background-color: #0065fc;
+  color: white;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 15px;
+  border: none;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 
