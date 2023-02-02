@@ -315,6 +315,13 @@ form button{
   box-shadow: 5px 5px 5px #dcdcdc;
 }
 
+.card-contenu{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+
 .card-img{
   padding: 4px;
   max-width: 40%;
@@ -330,20 +337,17 @@ form button{
 
 .card-contenu h3{
   font-size: 0.8em;
-  margin-bottom: 0px;
   margin-left: 5%;
 }
 
 .card-contenu p{
   font-size: 0.7em;
   margin-left: 5%;
-  margin-bottom: 0%;
 }
 
 .card-contenu .stars{
   font-size: small;
   margin-left: 5%;
-  margin-top: 40px;
 }
 .card-contenu .fa-star{
   color: #0065fc;
@@ -651,12 +655,4 @@ footer{
     margin: 0px;
     padding-left: 25px;
   }
-
-  
-
-
-
- 
-
- 
 }
