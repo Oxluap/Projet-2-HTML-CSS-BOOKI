@@ -97,6 +97,7 @@ form button{
   border-bottom-right-radius: 15px;
 }
 
+
 .bouton{
   display: none;
 }
@@ -256,7 +257,7 @@ form button{
 .Populaire{
   background-color: #f2f2f2;
   border-radius: 15px 15px 15px 15px;
-  max-width: 30%;           
+  width: 30%;          
   height: 530px;
   margin-top: 30px;
   padding: 2%;
@@ -292,7 +293,7 @@ form button{
 .card{
   border-radius:20px 20px 20px 20px ;
   background-color: white;
-  min-width: 270px;
+  width: 100%;
   height: 140px;
   display: flex;
   flex-direction: row;
@@ -305,6 +306,8 @@ form button{
   flex-direction: column;
   padding-bottom: 10px;
   justify-content: space-between;
+  width: 100%;
+
 }
 
 .card-img{
@@ -323,6 +326,7 @@ form button{
 .card-contenu h3{
   font-size: 0.8em;
   margin-left: 5%;
+  width: 65%;
 }
 
 .card-contenu p{
@@ -398,7 +402,7 @@ footer{
   margin: 35px 35px 0px 35px;
   display: flex;
   justify-content: space-between;
-  padding-right: 15%;
+  padding-right: 23%;
   padding-left: 4%; 
 }
 
@@ -436,7 +440,7 @@ footer{
   /*Populaire*/
 
   .Populaire{
-    max-width: 100%;
+    width: 96%;
     height: 230px;
   }
 
@@ -445,9 +449,17 @@ footer{
     flex-direction: row;
     justify-content: space-between;
   }
+
+  .card-contenu h3{
+    width: 80%;
+  }
+
+  .card-container article{
+    width: 32%;
+  }
+
   .card{
-    max-width: 30%;
-    min-width: 30%;
+    width: 100%;
   }
 
   /*Hebergement*/
@@ -458,14 +470,31 @@ footer{
 
   /*Activité*/
 
+  .activite h2{
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+
   .card-a{
-    height: 290px;
-    width: 23%;
+    height: 250px;
+    width: 22%;
   }
 
   .card-a img{
-    height: 250px;
+    height: 210px;
   }
+
+  #notre-dame h3{
+    width: 55%;
+  }
+
+  /*Footer*/
+
+  footer{
+    padding-right: 20%;
+  }
+
+
 }
 
 /*Version Smartphone*/
@@ -474,6 +503,10 @@ footer{
 
   main{
     padding: 0px 15px 0px 15px;
+  }
+
+  .titre h1{
+    width: 90%;
   }
 
 
@@ -559,6 +592,11 @@ footer{
     font-size: 0.8em;
   }
 
+  /*info*/
+  .information p{
+    width: 78%;
+  }
+
   /*Les plus populaires*/
 
   .main-container{
@@ -574,20 +612,25 @@ footer{
     flex-direction: column;
   }
 
+  .card-container article{
+    width: 100%;
+  }
+
   .card{
-    max-width: 100%;
+    width: 100%;
   }
 
   /*Hebergements*/
+
+  .hebergement-marseille h2{
+    font-size: 1.2em;
+    margin-left: 2%;
+  }
 
   .hebergement-marseille{
     height: 1280px;
     background-color: white;
     padding: 0px;
-  }
-
-  .hebergement-marseille h2{
-    margin-left: 0px;
   }
 
   .cartes-container{
@@ -611,6 +654,12 @@ footer{
   .activite{
     margin-top: 30px;
     height: 900px;
+  }
+
+  .activite h2{
+    width: 30%;
+    margin-bottom: 1%;
+    font-size: 1.2em;
   }
 
   .card-a-container{
